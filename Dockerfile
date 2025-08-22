@@ -7,4 +7,4 @@ COPY . .
 RUN apt update && apt install -y gcc libffi-dev && \
     pip install --no-cache-dir -r requirements.txt
 
-CMD ["./start.sh"]
+CMD ["python", "rss.py"]
