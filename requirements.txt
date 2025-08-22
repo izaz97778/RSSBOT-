@@ -1,0 +1,7 @@
+pyrogram
+tgcrypto
+httpx
+feedparser
+apscheduler
+pymongo[srv]
+aiohttp
